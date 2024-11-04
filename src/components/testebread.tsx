@@ -53,7 +53,7 @@ export default function Mychart() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-12">
+    <div className="w-full max-w-4xl mx-auto mt-12">
       <div className="mb-4">
         <label className="block text-sm font-medium text-gray-700">Valor da conta de luz:</label>
         <input
@@ -64,7 +64,7 @@ export default function Mychart() {
           className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-sun-500 focus:border-sun-500 sm:text-sm"
         />
       </div>
-      <div className="h-[400px] w-[500px]">
+      <div className="h-full w-full max-w-[400px] max-h-[400px]">
         <Line data={data} options={options} />
       </div>
     </div>

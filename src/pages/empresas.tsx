@@ -133,7 +133,7 @@ export default function Empresas() {
     </div>
 
     {/*Section 3*/}
-    <div className="w-full grid grid-cols-1 grid-rows-1 gap-auto items-center lg:grid-cols-2">
+    <div className="pb-24 w-full grid grid-cols-1 grid-rows-1 gap-auto items-center lg:grid-cols-2">
     <div className="mb-4 mx-auto px-4 lg:mx-0">
     <div className="max-w-xl pb-14">
       <h1 className="mb-6 text-3xl leading-tight sm:text-4xl font-bold text-neutral-200">Veja o impacto positivo na sua <span className="text-sun-500">economia</span>!</h1>
@@ -152,7 +152,7 @@ export default function Empresas() {
       <div className="flex flex-col gap-8 w-full h full bg-neutral-800 p-8 rounded-2xl">
           <li className="flex items-center gap-6 text-white">
               <span className="text-sun-500">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                   </svg>
               </span>Visualize a Economia: O gráfico calculará automaticamente quanto você economizaria em 6 anos com energia solar.
@@ -183,10 +183,10 @@ export default function Empresas() {
     </div>
 
     <div className="flex items-start gap-8 justify-start flex-col">
-              <div className="flex flex-col gap-8 w-full h-full bg-neutral-800 px-8 py-24 rounded-2xl">
+              <div className="items-center justify-center flex flex-col gap-8 w-full h-full bg-neutral-800 px-8 py-24 rounded-2xl">
                 {/* Ícone */}
-                <div className="flex justify-center items-center ">
-                  <img src="./close-up-hand-typing-calculator.jpg  "/>
+                <div className="w-full h-full max-w-lg flex justify-center items-center ">
+                  <img src="/close-up-hand-typing-calculator.jpg " className="w-full h-full "/>
                 </div>
                 {/* Parágrafo */}
                 <p className="text-base font-semibold text-neutral-300 text-center">
