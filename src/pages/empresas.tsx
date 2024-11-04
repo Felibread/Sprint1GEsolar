@@ -200,7 +200,7 @@ export default function Empresas() {
     <div>
                 
        
-                <section className="py-10 bg-[#1E1E1E]" id="section-5">
+                <section className="py-10 bg-[#1E1E1E]">
                     <h2 className="text-2xl font-bold text-center text-white ">Depoimentos</h2>
                     <Carousel />
                 </section>

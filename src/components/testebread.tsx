@@ -23,7 +23,12 @@ export default function Mychart() {
     setAmount(newAmount);
 
     // Calcular economia anual com energia solar (80% de economia)
-    const savings = Array.from({ length: 6 }, () => newAmount * 0.8);
+    // Adicionamos uma variação anual positiva entre 0% e 5%
+    const savings = Array.from({ length: 6 }, (_, i) => {
+      const positiveVariation = 1 + Math.random() * 0.05; // Variação entre 0% e +5%
+      return newAmount * 0.8 * positiveVariation * Math.pow(1.02, i); // Incremento leve de 2% a cada ano
+    });
+
     setSavingsData(savings);
   };
 
